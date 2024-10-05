@@ -1,0 +1,14 @@
+{
+  "name": "conventer",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yokonohana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "i18next": "^23.15.1"
+  },
+  "description": ""
+}

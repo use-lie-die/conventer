@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script type="module" src="./index.js"></script>
+    <main>
+        <select name="Change basic Source" id="chooseSource">
+          <option class="chooseSource" value="RUB">RUB</option>
+          <option class="chooseSource" value="EUR">EUR</option>
+          <option class="chooseSource" value="USD">USD</option>
+        </select>
+        <form action="">
+          <input type="text" name="currency" value="" placeholder="Example: 15 USD in RUB">
+          <button type="submit" id="enter">Конвертировать</button>
+        </form>
+      <div class="maincontainer"></div>
+      <section class="subcontainer"></section>
+    </main>
+  </body>
+</html>
